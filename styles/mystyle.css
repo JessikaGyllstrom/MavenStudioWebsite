@@ -2,7 +2,7 @@
     --dark: #17252A;
     --mediumdark: #2B7A78;
     --teal: #3AAFA9;
-    --grey: #DEF2F1;
+    --grey: #5e6d6c;
     --white: #FEFFFF;
 }
 * {
@@ -70,9 +70,16 @@ body {
     height: 100vh;
 }
 .btn {
-    background-color:var(--grey);
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 5px;
+}
+.btn-white {
+    background-color: var(--white);
     color: var(--dark);
-    border-radius: 10px;
+}
+.btn-mddark {
+    background-color: var(--mediumdark);
 }
 span {
     color: var(--teal);
@@ -80,14 +87,33 @@ span {
 .about-img img {
     width: 400px;
 }
+.card-service {
+    background-color: var(--mediumdark) !important;
+}
 .card {
-    background-color: #2B7A78 !important;
+    background-color: var(--white) !important;
+}
+.card img {
+    min-height: 320px;
 }
 .service .card-body i {
     font-size: 50px;
 }
-
-
+.team .card-body i {
+    font-size: 20px;
+}
+.team .card-body img {
+    min-height: 300px;
+}
+.team .card-body h3 {
+    margin-top: 5px;
+}
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
 
 
 
