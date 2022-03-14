@@ -12,6 +12,7 @@
 }
 body {
     background-color: var(--dark);
+    color: var(--white);
 }
 .section-padding {
     padding: 100px 0;
@@ -69,12 +70,27 @@ body {
     height: 100vh;
 }
 .btn {
-    background-color: var(--white);
-    color: var(--teal);
+    background-color:var(--grey);
+    color: var(--dark);
+    border-radius: 10px;
 }
 span {
     color: var(--teal);
 }
+.about-img img {
+    width: 400px;
+}
+.card {
+    background-color: #2B7A78 !important;
+}
+.service .card-body i {
+    font-size: 50px;
+}
+
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 370 px;
