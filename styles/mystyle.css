@@ -1,0 +1,17 @@
+:root {
+    --dark: #17252A;
+    --mediumdark: #2B7A78;
+    --teal: #3AAFA9;
+    --grey: #DEF2F1;
+    --white: #FEFFFF;
+}
+.btn {
+    background-color: var(--white);
+    color: var(--teal);
+}
+span {
+    color: var(--teal);
+}
+
+
+
