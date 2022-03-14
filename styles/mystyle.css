@@ -53,6 +53,9 @@ body {
     font-weight: 500;
     color: var(--dark);
 }
+.navbar i {
+    font-size: 30px;
+}
 .navbar .navbar-brand {
     color: var(--dark);
     font-size: 25px;
@@ -90,6 +93,9 @@ span {
 .card-service {
     background-color: var(--mediumdark) !important;
 }
+.card-service .btn:hover {
+    color: var(--teal);
+}
 .card {
     background-color: var(--white) !important;
 }
@@ -98,6 +104,9 @@ span {
 }
 .service .card-body i {
     font-size: 50px;
+}
+.portfolio .card-body .btn:hover {
+    color: var(--teal);
 }
 .team .card-body i {
     font-size: 20px;
